@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity]
 #[ORM\Table(name: '"user"')]
-final class User
+class User
 {
     use IdentifiableTrait;
     use TimestampableTrait;
